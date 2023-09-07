@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col mx-auto">
-    <div class="px-10">
+  <div class="flex flex-col justify-center items-center mx-auto">
+    <div class="xl:px-10 w-full">
       <div class="flex justify-between">
         <div class="flex justify-center items-center">
           <p class="font-semibold text-2xl ml-14 mr-4">
@@ -16,7 +16,8 @@
         </button>
       </div>
     </div>
-    <div class="grid grid-cols-1 justify-center items-center sm:grid-cols-2 md:grid-cols-3 xl:flex xl:justify-around xl:mx-28">
+    <div
+      class="grid grid-cols-2 justify-center items-center md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 xl:flex xl:justify-around mx-2 gap-2 xl:gap-6 xl:mx-16">
       <Card class="mb-8" v-for="(data, index) in flashSale" :key="index" :imageUrl="data.imageUrl" :label="data.label"
         :judul="data.judul" :harga="data.harga" :hargaAsli="data.hargaAsli" :diskon="data.diskon" />
     </div>

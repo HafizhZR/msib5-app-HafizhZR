@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col mx-auto">
-    <div class="mb-10">
-      <div class="px-10">
+  <div class="flex flex-col items-center mx-auto">
+    <div class="mb-10 w-full">
+      <div class="xl:px-10">
         <div class="flex justify-between">
           <p class="font-semibold text-2xl m-14">
             Categories

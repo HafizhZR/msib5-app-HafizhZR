@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col mx-auto">
-    <div class="">
-      <div class="px-10">
+  <div class="flex flex-col items-center mx-auto">
+    <div class="xl:px-10 w-full">
+      <div class="">
         <div class="flex justify-between w-full">
           <div class="flex justify-center items-center">
             <p class="font-semibold text-2xl ml-14 mr-4">
@@ -14,8 +14,8 @@
           </button>
         </div>
       </div>
-      <div class="flex flex-col lg:flex-row justify-center items-center lg:flex gap-6 lg:justify-center lg:items-center lg:ml-50">
-        <div class="mb-10 bg-[#28A0F6] w-[352px] h-[380px] lg:h-[494px] p-10 rounded-lg left-10 flex lg:block ">
+      <div class="flex flex-col xl:flex-row justify-center mx-4 items-center xl:flex gap-6 xl:justify-center xl:items-center xl:ml-50">
+        <div class="mb-10 bg-[#28A0F6] w-[352px] h-[380px] xl:h-[494px] p-10 rounded-lg left-10 xl:block hidden">
           <div class="flex-col mb-20">
             <p class="text-2xl text-white">
               Discount
@@ -33,7 +33,7 @@
             </p>
           </div>
         </div>
-        <div class="lg:z-[1] lg:mt-[-15px] lg:flex grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 lg:flex-row justify-center items-center lg:gap-7 mt-[-180px] lg:ml-[-130px] mx-20 md:mx-4">
+        <div class="xl:z-[1] xl:mt-[-15px] xl:flex grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 lg:flex-row justify-center items-center xl:gap-6 xl:ml-[-130px] mx-[-6px] md:mx-4 ">
           <Card class="mb-7" v-for="(data, index) in latest" :key="index" :imageUrl="data.imageUrl" :label="data.label"
             :judul="data.judul" :harga="data.harga" :hargaAsli="data.hargaAsli" :diskon="data.diskon" />
         </div>

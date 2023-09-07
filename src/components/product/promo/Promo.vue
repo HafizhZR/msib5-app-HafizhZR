@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="flex justify-center items-center">
-      <div class="w-[79%] h-[200px] bg-slate-200 mx-auto my-10 rounded-lg">
+      <div class="w-[83%] h-[200px] bg-slate-200 mx-auto my-10 rounded-lg">
 
       </div>
     </div>

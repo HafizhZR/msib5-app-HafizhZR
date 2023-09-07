@@ -9,7 +9,7 @@
           <p class="text-white w-3/5 text-center lg:text-start">Design amazing digital experiences that create more happy in the world.</p>
         </div>
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:flex justify-center mx-auto lg:mx-0 gap-8 lg:gap-0 lg:justify-between w-full h-fit mt-10 lg:mt-0 mb-10 lg:mb-0">
-          <div class="flex flex-col mx-auto w-fit">
+          <div class="flex flex-col mx-auto">
             <p class="opacity-50 font-semibold text-sm mb-2">Product</p>
             <ul class="text-base">
               <li class="mb-2"><button>Overview</button></li>

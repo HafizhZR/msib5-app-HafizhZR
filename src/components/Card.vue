@@ -1,6 +1,6 @@
 <template>
   <button>
-    <div class="flex-col box-border w-[224px] h-[430px] shadow-lg bg-white rounded-lg">
+    <div class="flex-col mx-auto box-border w-[224px] h-[430px] shadow-lg bg-white rounded-lg">
       <img :src="imageUrl" alt="gambar" class="bg-[#F2F4F7] w-full rounded-lg">
       <div>
         <div class="m-6">

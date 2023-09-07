@@ -8,8 +8,8 @@
           </button>
           <p class="text-white w-3/5 text-center lg:text-start">Design amazing digital experiences that create more happy in the world.</p>
         </div>
-        <div class="grid grid-cols-2 lg:flex justify-center mx-20 lg:mx-0 gap-8 lg:gap-0 lg:justify-between w-full h-fit mt-10 lg:mt-0 mb-10 lg:mb-0">
-          <div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:flex justify-center mx-auto lg:mx-0 gap-8 lg:gap-0 lg:justify-between w-full h-fit mt-10 lg:mt-0 mb-10 lg:mb-0">
+          <div class="flex flex-col mx-auto w-fit">
             <p class="opacity-50 font-semibold text-sm mb-2">Product</p>
             <ul class="text-base">
               <li class="mb-2"><button>Overview</button></li>
@@ -21,7 +21,7 @@
               <li class="mb-2"><button>Releases</button></li>
             </ul>
           </div>
-          <div>
+          <div class="flex flex-col mx-auto">
             <p class="opacity-50 font-semibold text-sm mb-2">Company</p>
             <ul class="text-base">
               <li class="mb-2"><button>About us</button></li>
@@ -32,7 +32,7 @@
               <li class="mb-2"><button>Contact</button></li>
             </ul>
           </div>
-          <div>
+          <div class="flex flex-col mx-auto">
             <p class="opacity-50 font-semibold text-sm mb-2">Resources</p>
             <ul class="text-base">
               <li class="mb-2"><button>Blog</button></li>
@@ -43,7 +43,7 @@
               <li class="mb-2"><button>Support</button></li>
             </ul>
           </div>
-          <div>
+          <div class="flex flex-col mx-auto">
             <p class="opacity-50 font-semibold text-sm mb-2">Social</p>
             <ul class="text-base">
               <li class="mb-2"><button>Twitter</button></li>
@@ -54,7 +54,7 @@
               <li class="mb-2"><button>Dribble</button></li>
             </ul>
           </div>
-          <div>
+          <div class="flex flex-col mx-auto">
             <p class="opacity-50 font-semibold text-sm mb-2">Legal</p>
             <ul class="text-base">
               <li class="mb-2"><button>Terms</button></li>

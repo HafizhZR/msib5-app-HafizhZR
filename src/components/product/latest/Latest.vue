@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="flex flex-col lg:flex-row justify-center items-center lg:flex gap-6 lg:justify-center lg:items-center lg:ml-50">
-        <div class="mb-10 bg-[#28A0F6] w-[352px] h-[494px] p-10 rounded-lg left-10">
+        <div class="mb-10 bg-[#28A0F6] w-[352px] h-[380px] lg:h-[494px] p-10 rounded-lg left-10 flex lg:block ">
           <div class="flex-col mb-20">
             <p class="text-2xl text-white">
               Discount
@@ -33,7 +33,7 @@
             </p>
           </div>
         </div>
-        <div class="lg:z-[1] lg:mt-[-15px] lg:flex flex flex-col lg:flex-row justify-center items-center gap-0 lg:gap-7 lg:ml-[-130px]">
+        <div class="lg:z-[1] lg:mt-[-15px] lg:flex grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 lg:flex-row justify-center items-center lg:gap-7 mt-[-180px] lg:ml-[-130px] mx-20 md:mx-4">
           <Card class="mb-7" v-for="(data, index) in latest" :key="index" :imageUrl="data.imageUrl" :label="data.label"
             :judul="data.judul" :harga="data.harga" :hargaAsli="data.hargaAsli" :diskon="data.diskon" />
         </div>

@@ -16,7 +16,7 @@
         </button>
       </div>
     </div>
-    <div class="md:flex md:justify-around mx-32">
+    <div class="grid grid-cols-1 justify-center items-center sm:grid-cols-2 md:grid-cols-3 xl:flex xl:justify-around mx-32 sm:mx-20 md:mx-12 lg:mx-32">
       <Card class="mb-8" v-for="(data, index) in flashSale" :key="index" :imageUrl="data.imageUrl" :label="data.label"
         :judul="data.judul" :harga="data.harga" :hargaAsli="data.hargaAsli" :diskon="data.diskon" />
     </div>

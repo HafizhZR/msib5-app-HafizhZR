@@ -13,7 +13,7 @@
         </button>
       </div>
     </div>
-    <div class="grid justify-center mx-36 lg:grid-cols-5 md:grid-cols-2 gap-6">
+    <div class="grid justify-center items-center sm:mx-24 md:mx-12 lg:mx-28 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 xl:mx-32 gap-6">
       <Card v-for="(data, index) in ForYou" :key="index" :imageUrl="data.imageUrl" :label="data.label" :judul="data.judul"
         :harga="data.harga" :hargaAsli="data.hargaAsli" :diskon="data.diskon" />
     </div>

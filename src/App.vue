@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-b from-sky-200 to-white">
+  <div class="bg-gradient-to-b from-sky-200 to-white w-full">
     <div>
       <Header />
     </div>

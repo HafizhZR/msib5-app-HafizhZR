@@ -11,7 +11,7 @@
         </button>
       </div>
     </div>
-    <div class="grid mx-24 md:grid-cols-3 lg:gap-0 lg:flex justify-center lg:justify-around  lg:mx-24">
+    <div class="grid grid-cols-2 mx-24 md:grid-cols-3 gap-8 lg:gap-0 lg:flex justify-center lg:justify-around lg:mx-24">
       <Card v-for="(kategori, index) in categories" :key="index" :imageUrl="kategori.imageUrl" :name="kategori.name" />
     </div>
   </div>

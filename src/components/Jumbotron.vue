@@ -2,7 +2,7 @@
   <div class="flex mx-auto">
     <div class="lg:flex lg:justify-center lg:items-center flex flex-col mx-auto lg:flex-row">
       <div class="lg:flex-col flex flex-col mx-auto lg:w-2/5 lg:m-24 order-2 lg:order-1">
-        <h1 class="text-3xl lg:text-6xl font-semibold mb-10 mx-10 text-center lg:text-left">Welcome to GITS Commerce</h1>
+        <h1 class="text-3xl lg:text-6xl font-semibold mb-10 mx-10 md:mx-0 lg:mx-0 xl:mx-0 text-center lg:text-left">Welcome to GITS Commerce</h1>
         <p class="text-md lg:text-xl w-3/4 lg:w-5/6 mb-6 lg:mb-10 flex mx-auto lg:mx-0 text-center lg:text-left ">Morpheme is a next-gen
           financial technology company in the process of reinventing
           banking.</p>

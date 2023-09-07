@@ -1,9 +1,9 @@
 <template>
   <button class="mx-2">
-    <div class="flex-col mx-auto box-border min-w-[160px] max-w-[224px] h-[430px] shadow-lg bg-white rounded-lg">
+    <div class="flex-col mx-auto box-border min-w-[160px] max-w-[224px] h-[420px] sm:h-[440px] md:h-[440px] lg:h-[440px] xl:h-[440px] shadow-lg bg-white rounded-lg">
       <img :src="imageUrl" alt="gambar" class="bg-[#F2F4F7] w-full rounded-lg">
       <div>
-        <div class="m-6">
+        <div class="m-6 ">
           <p class="px-2 py-1 rounded-2xl bg-[#F2F4F7] w-fit mb-4">
             {{ label }}
           </p>

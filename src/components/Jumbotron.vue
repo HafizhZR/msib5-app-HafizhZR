@@ -10,7 +10,7 @@
             src="../assets/IconCart.png" alt="logo" class="w-6 h-6 mr-2">Start Shopping</button>
       </div>
       <div class="order-1 lg:order-2 flex mx-auto justify-start">
-        <img class="min-w-[200px] max-w-[400px] max-h-[400px] md:max-w-[600px] md:max-h-[600px] xl:max-w-[800px] xl:max-h-[800px]" src="../assets/Jumbotron.png" alt="logo cart">
+        <img class="ml-[-90px] min-w-[80px] max-w-[400px] max-h-[400px] md:max-w-[600px] md:max-h-[600px] xl:max-w-[800px] xl:max-h-[800px]" src="../assets/Jumbotron.png" alt="logo cart">
       </div>
     </div>
   </div>

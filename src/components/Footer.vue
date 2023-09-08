@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="inline-block w-full h-[500px] bg-[#1D2939] py-10 lg:py-0">
-      <div class="inline-block lg:flex justify-center lg:justify-between lg:px-40 lg:py-20 w-full h-fit bg-[#1D2939] text-white">
+      <div class="inline-block lg:flex justify-center lg:justify-between lg:px-28 lg:py-20 w-full h-fit bg-[#1D2939] text-white">
         <div class="flex-col flex items-center lg:items-start">
           <button class="flex ml-10 lg:ml-0">
             <img class="mb-6" src="../assets/LogoWhite.png" alt="">
@@ -67,9 +67,9 @@
           </div>
         </div>
       </div>
-      <hr class=" mx-auto w-4/5" />
+      <hr class=" mx-auto w-[86%]" />
       <div class="flex lg:justify-center items-center lg:mt-10">
-        <div class="flex flex-col lg:flex-row lg:flex items-center lg:justify-between py-10 lg:py-0 lg:px-40 w-full bg-[#1D2939] gap-4 lg:gap-0">
+        <div class="flex flex-col lg:flex-row lg:flex items-center lg:justify-between py-10 lg:py-0 lg:px-28 w-full bg-[#1D2939] gap-4 lg:gap-0">
           <p class="text-[#667085]">
             &copy;2077 Morpheme UI. All rights reserved.
           </p>

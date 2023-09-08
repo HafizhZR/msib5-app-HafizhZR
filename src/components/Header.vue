@@ -4,10 +4,10 @@
       <button>
         <img src="../assets/LogoGITS.png" alt="Logo" />
       </button>
-      <div class="gap-x-3 lg:flex ml-10 items-center hidden">
-        <button class="flex">Home</button>
-        <button class="flex">Products<span class="material-symbols-outlined">expand_more</span></button>
-        <button class="flex">Categories<span class="material-symbols-outlined">expand_more</span></button>
+      <div class="gap-x-8 lg:flex ml-10 items-center hidden">
+        <button class="flex font-semibold">Home</button>
+        <button class="flex font-semibold">Products<span class="material-symbols-outlined">expand_more</span></button>
+        <button class="flex font-semibold">Categories<span class="material-symbols-outlined">expand_more</span></button>
       </div>
     </div>
 
@@ -26,8 +26,8 @@
     </div>
 
     <div class="hidden lg:flex gap-x-3">
-      <button class="">Log in</button>
-      <button class="bg-[#0984DD] px-[18px] py-[10px] rounded-lg text-white">Sign up</button>
+      <button class="px-5 py-1 hover:bg-white rounded-lg font-semibold text-[#475467]">Log in</button>
+      <button class="bg-[#0984DD] px-[18px] py-[10px] rounded-lg text-[#f8feff] font-semibold hover:bg-sky-700">Sign up</button>
     </div>
   </div>
 </template>

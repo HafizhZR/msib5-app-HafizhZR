@@ -10,7 +10,7 @@
             00:12:12
           </p>
         </div>
-        <button class="text-[#0984DD] flex justify-center items-center gap-3 m-14 ">
+        <button class="text-[#0984DD] flex justify-center items-center gap-3 m-14 font-semibold">
           View all
           <img src="../../../assets/Arrow.png" alt="">
         </button>

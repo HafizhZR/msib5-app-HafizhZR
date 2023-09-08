@@ -6,7 +6,7 @@
         <p class="text-md lg:text-xl w-3/4 lg:w-5/6 mb-6 lg:mb-10 flex mx-auto lg:mx-0 text-center lg:text-left ">Morpheme is a next-gen
           financial technology company in the process of reinventing
           banking.</p>
-        <button class="bg-[#0984DD] px-[18px] py-[10px] rounded-lg text-white flex mx-auto lg:mx-0 w-fit"><img
+        <button class="bg-[#0984DD] px-[18px] py-[10px] rounded-lg text-white flex mx-auto lg:mx-0 w-fit hover:bg-sky-700"><img
             src="../assets/IconCart.png" alt="logo" class="w-6 h-6 mr-2">Start Shopping</button>
       </div>
       <div class="order-1 lg:order-2 flex mx-auto justify-start">

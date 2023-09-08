@@ -1,34 +1,9 @@
+<script lang="ts" setup>
+  import HomePage from './views/home/HomePage.vue';
+</script>
+
 <template>
   <div>
-    <div class="bg-gradient-to-b from-[#D8EEFD] to-white w-full">
-      <Header />
-      <Jumbotron />
-    </div>
-    <div>
-      <Categories />
-      <FlashSale />
-      <Latest />
-      <Promo />
-      <Latest />
-      <Latest />
-      <ForYou />
-      <NewsLetter />
-    </div>
-    <div>
-      <Footer />
-    </div>
+    <HomePage/>
   </div>
 </template>
-
-<script setup lang="ts">
-import Header from './components/Header.vue'
-import Jumbotron from './components/Jumbotron.vue'
-import Categories from './components/product/categories/Categories.vue'
-import FlashSale from './components/product/flash-sale/FlashSale.vue'
-import Latest from './components/product/latest/Latest.vue'
-import Promo from './components/product/promo/Promo.vue'
-import ForYou from './components/product/for-you/ForYou.vue'
-import NewsLetter from './components/NewsLetter.vue'
-import Footer from './components/Footer.vue'
-
-</script>

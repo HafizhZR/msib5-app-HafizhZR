@@ -1,19 +1,7 @@
 <template>
   <div class="flex flex-col items-center mx-auto">
+    <ViewAll :kategori="kategoriLatest" />
     <div class="xl:px-10 w-full">
-      <div class="">
-        <div class="flex justify-between w-full">
-          <div class="flex justify-center items-center">
-            <p class="font-semibold text-2xl ml-14 mr-4">
-              Latest Product
-            </p>
-          </div>
-          <button class="text-[#0984DD] flex justify-center items-center gap-3 m-14 ">
-            View all
-            <img src="../../../assets/Arrow.png" alt="">
-          </button>
-        </div>
-      </div>
       <div class="flex flex-col xl:flex-row justify-center mx-4 items-center xl:flex gap-6 xl:justify-center xl:items-center xl:ml-50">
         <div class="mb-10 bg-[#28A0F6] w-[352px] h-[380px] xl:h-[494px] p-10 rounded-lg left-10 xl:block hidden">
           <div class="flex-col mb-20">
@@ -26,7 +14,7 @@
           </div>
           <div class="flex-col">
             <p class="text-2xl text-white">
-              up To
+              Up To
             </p>
             <p class="text-7xl font-semibold text-[#FCE834]">
               50%
@@ -47,6 +35,9 @@
 import Card from '../../Card.vue';
 import { ref } from 'vue'
 import Bottle from '../../../assets/Bottle.png'
+import ViewAll from '../../content/ViewAll.vue'
+
+const kategoriLatest = 'Latest';
 
 const latest = ref([
   {

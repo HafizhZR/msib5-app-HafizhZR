@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-gradient-to-b from-sky-200 to-white w-full">
-    <div>
+  <div>
+    <div class="bg-gradient-to-b from-[#D8EEFD] to-white w-full">
       <Header />
+      <Jumbotron />
     </div>
     <div>
-      <Jumbotron />
       <Categories />
       <FlashSale />
       <Latest />

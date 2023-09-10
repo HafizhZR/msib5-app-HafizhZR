@@ -13,12 +13,12 @@
         <form class="bg-grey-200 w-[266px] h-[48px]" action="Submit">
           <input type="text" placeholder="Enter your email" class="w-[250px] h-[32px] rounded-lg p-2">
         </form>
-        <button class="text-white w-fit h-fit bg-[#0984DD] px-2 py-1 rounded-lg">
+        <button class="text-white w-fit h-fit bg-[#0984DD] px-2 py-1 rounded-lg hover:bg-sky-700">
           Subscribe
         </button>
       </div>
       <button>
-        <img src="../assets/Information.png" alt="Information">
+        <img src="../assets/icons/Information.png" alt="Information">
       </button>
     </div>
   </div>

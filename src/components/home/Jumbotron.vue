@@ -7,10 +7,10 @@
           financial technology company in the process of reinventing
           banking.</p>
         <button class="bg-[#0984DD] px-[18px] py-[10px] rounded-lg text-white flex mx-auto lg:mx-0 w-fit hover:bg-sky-700"><img
-            src="../assets/IconCart.png" alt="logo" class="w-6 h-6 mr-2">Start Shopping</button>
+            src="../../assets/icons/IconCart.png" alt="logo" class="w-6 h-6 mr-2">Start Shopping</button>
       </div>
       <div class="order-1 lg:order-2 flex mx-auto justify-start">
-        <img class="ml-[-90px] min-w-[80px] max-w-[400px] max-h-[400px] md:max-w-[600px] md:max-h-[600px] xl:max-w-[800px] xl:max-h-[800px]" src="../assets/Jumbotron.png" alt="logo cart">
+        <img class="ml-[-90px] min-w-[80px] max-w-[400px] max-h-[400px] md:max-w-[600px] md:max-h-[600px] xl:max-w-[800px] xl:max-h-[800px]" src="../../assets/images/Jumbotron.png" alt="logo cart">
       </div>
     </div>
   </div>

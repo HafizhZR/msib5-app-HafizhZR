@@ -12,23 +12,26 @@
         </div>
         <button class="text-[#0984DD] flex justify-center items-center gap-3 m-14 font-semibold">
           View all
-          <img src="../../../assets/Arrow.png" alt="">
+          <img src="../../assets/icons/Arrow.png" alt="">
         </button>
       </div>
     </div>
     <div
-      class="grid grid-cols-2 justify-center items-center md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 xl:flex xl:justify-around mx-2 gap-2 xl:gap-6 xl:mx-16">
+      class="relative grid grid-cols-2 justify-center items-center md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 xl:flex xl:justify-around mx-2 gap-2 xl:gap-6 xl:mx-16">
       <Card class="mb-8" v-for="(data, index) in flashSale" :key="index" :imageUrl="data.imageUrl" :label="data.label"
         :judul="data.judul" :harga="data.harga" :hargaAsli="data.hargaAsli" :diskon="data.diskon" />
+        <button class="absolute right-[-40px] top-[170px] hidden xl:inline-block">
+          <img src="../../assets/icons/Next.png" alt="">
+        </button>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import Card from '../../../components/Card.vue'
-import Bottle from '../../../assets/Bottle.png'
-import Sepatu from '../../../assets/Sepatu.png'
+import Card from '../../components/CardProduct.vue'
+import Bottle from '../../assets/images/Bottle.png'
+import Sepatu from '../../assets/images/Sepatu.png'
 
 const flashSale = ref([
   {

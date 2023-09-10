@@ -2,7 +2,7 @@
   <div class="flex justify-between mx-12 lg:mx-24 py-5">
     <div class="flex">
       <button>
-        <img src="../assets/LogoGITS.png" alt="Logo" />
+        <img src="../assets/images/LogoGITS.png" alt="Logo" />
       </button>
       <div class="gap-x-8 lg:flex ml-10 items-center hidden">
         <button class="flex font-semibold">Home</button>

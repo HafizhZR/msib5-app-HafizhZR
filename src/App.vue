@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-  import HomePage from './views/home/HomePage.vue';
+  import Home from './views/Home.vue';
 </script>
 
 <template>
   <div>
-    <HomePage/>
+    <Home/>
   </div>
 </template>
